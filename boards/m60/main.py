@@ -26,21 +26,21 @@ _______ = KC.TRNS
 XXXXXXX = KC.NO
 
 BASE = 0
-FN1 = 1
+FN1 = KC.MO(1)
 
 
 keyboard.keymap = [
     [
-        KC.ESC, KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS, KC.EQL,  KC.BSPC,
-        KC.TAB,  KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC, KC.BSLS,
-        KC.CAPS, KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT,           KC.ENT,
-        KC.LSFT, KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH,                   KC.RSFT,
-        KC.LCTL, KC.LALT, KC.LGUI,                       KC.SPC,                     KC.RALT, KC.APP, KC.MO(FN1), KC.RCTL,
+        KC.ESC,   KC.N1,    KC.N2,    KC.N3,    KC.N4,    KC.N5,    KC.N6,    KC.N7,    KC.N8,    KC.N9,    KC.N0,    KC.MINS,  KC.EQL,   KC.BSPC,
+        KC.TAB,   KC.Q,     KC.W,     KC.E,     KC.R,     KC.T,     KC.Y,     KC.U,     KC.I,     KC.O,     KC.P,     KC.LBRC,  KC.RBRC,  KC.BSLS,
+        KC.CAPS,  KC.A,     KC.S,     KC.D,     KC.F,     KC.G,     KC.H,     KC.J,     KC.K,     KC.L,     KC.SCLN,  KC.QUOT,            KC.ENT,
+        KC.LSFT,  KC.Z,     KC.X,     KC.C,     KC.V,     KC.B,     KC.N,     KC.M,     KC.COMM,  KC.DOT,   KC.SLSH,                      KC.RSFT,
+        KC.LCTL,  KC.LALT,  KC.LGUI,                      KC.SPC,                                 KC.RALT,  KC.APP,   KC.RCTL,            FN1,
     ],
     [
-        KC.GRAVE,    KC.F1,   KC.F2,   KC.F3,   KC.F4,   KC.F5,   KC.F6,   KC.F7,   KC.F8,   KC.F9,   KC.F10,  KC.F11,  KC.F12,  KC.DEL,
-        KC.RGB_TOG, KC.RGB_MODE_SWIRL, KC.UP,   KC.RGB_MODE_RAINBOW,   KC.RESET, _______, _______, _______, _______, _______, _______, KC.AUDIO_VOL_DOWN, KC.AUDIO_VOL_UP, KC.AUDIO_MUTE,
-        _______, KC.LEFT, KC.DOWN, KC.RGHT, _______, _______, KC.MS_LEFT, KC.MS_DOWN, KC.MS_UP, KC.MS_RIGHT, KC.BRIGHTNESS_DOWN, KC.BRIGHTNESS_UP, _______,
+        KC.GRAVE, KC.F1,    KC.F2,    KC.F3,    KC.F4,    KC.F5,    KC.F6,    KC.F7,    KC.F8,    KC.F9,    KC.F10,   KC.F11,   KC.F12,   KC.DEL,
+        KC.RGB_TOG, KC.RGB_MODE_SWIRL,KC.UP,   KC.RGB_MODE_RAINBOW,   KC.RESET, _______, _______, _______, _______, _______, _______, KC.AUDIO_VOL_DOWN, KC.AUDIO_VOL_UP, KC.AUDIO_MUTE,
+        _______,  KC.LEFT,  KC.DOWN,  KC.RGHT, _______, _______, KC.MS_LEFT, KC.MS_DOWN, KC.MS_UP, KC.MS_RIGHT, KC.BRIGHTNESS_DOWN, KC.BRIGHTNESS_UP, _______,
         _______, _______, _______, _______, _______, KC.BOOTLOADER, _______, _______, KC.MEDIA_PREV_TRACK, KC.MEDIA_NEXT_TRACK, KC.MEDIA_PLAY_PAUSE, _______,
         KC.GRV, _______, _______, _______, _______,          _______, _______, _______,
     ],
